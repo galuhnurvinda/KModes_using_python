@@ -17,12 +17,6 @@
 
     #check double data --> beda nama harusnya beda credit card
     duplicateCC = cleansing[cleansing.duplicated(['creditcard'])]
-
-    cleansing
-    cleansing.to_csv('C:/Users/Bappenas/OneDrive/Pribadi/Narasi TV/analisis.csv', index=False)
-
-
-
     #===========================KModes Clustering=================================
     import warnings
     warnings.filterwarnings('ignore')
