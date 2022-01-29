@@ -19,7 +19,7 @@
     duplicateCC = cleansing[cleansing.duplicated(['creditcard'])]
     #duplicateCC
     #===========================KModes Clustering=================================
-    import warnings
+    #import warnings
     warnings.filterwarnings('ignore')
 
     # Importing all required packages
