@@ -17,6 +17,7 @@
 
     #check double data --> beda nama harusnya beda credit card
     duplicateCC = cleansing[cleansing.duplicated(['creditcard'])]
+    #duplicateCC
     #===========================KModes Clustering=================================
     import warnings
     warnings.filterwarnings('ignore')
